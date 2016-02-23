@@ -1,0 +1,100 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.dHome{
+  width: 100%;
+  z-index: -1;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-image: url("../../assets/images/homeBG.jpg");
+
+
+}
+
+.dHomeIn{
+  z-index: 1;
+  background: rgba(0,0,0,.6);
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+
+.dLogin{
+  clear: both;
+  width: 35%;
+  height: 38%;
+  z-index: 1;
+  margin: 17% auto;
+  position: relative;
+  background-color: #ffffff;
+  text-align: center;
+  border: 4px solid #808080;
+
+
+}
+
+.dLoginImg{
+  clear: both;
+  width: 70%;
+  height: 27%;
+  margin-left: 16%;
+  margin-top: 4%;
+  position: relative;
+  z-index: -1;
+  text-align: center;
+
+}
+
+#logo{
+  width: 50%;
+  height: 170%;
+  margin-left: 25%;
+
+}
+
+.dLoginMessage{
+  clear: both;
+  width: 100%;
+  margin-top: 12%;
+  z-index: 1;
+  text-align: center;
+
+}
+
+.glogo{
+  padding: 2.5% 10%;
+  background-color: #e74c3c;
+  font-size: 1.5em;
+  color: #ffffff;
+
+
+}
+
+.glogo a{
+  text-decoration: none;
+}
+
+.glogo img{
+  width: 7%;
+  height: 5%;
+}
+
+.dLoginButton{
+  clear: both;
+}
+
