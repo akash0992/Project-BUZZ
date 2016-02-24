@@ -11,6 +11,7 @@ angular.module('buzzApp', [
     $urlRouterProvider
       .otherwise('/');
 
+
     $locationProvider.html5Mode(true);
     $httpProvider.interceptors.push('authInterceptor');
   })
@@ -23,6 +24,10 @@ angular.module('buzzApp', [
         if ($cookieStore.get('token')) {
           config.headers.Authorization = 'Bearer ' + $cookieStore.get('token');
         }
+
+        //console.log(config)
+        //console.log($location)
+        //console.log('hey user are you logged in....');
         return config;
       },
 
@@ -41,13 +46,19 @@ angular.module('buzzApp', [
     };
   })
 
-  .run(function ($rootScope, $location, Auth) {
+  .run(function ($rootScope, $location, Auth,$state) {
     // Redirect to login if route requires auth and you're not logged in
     $rootScope.$on('$stateChangeStart', function (event, next) {
       Auth.isLoggedInAsync(function(loggedIn) {
+        //console.log('next',$state.current)
         if (next.authenticate && !loggedIn) {
+
           event.preventDefault();
           $location.path('/');
+        }
+        if(next.name!='main' && !loggedIn){
+          event.preventDefault();
+          $state.go('main')
         }
       });
     });

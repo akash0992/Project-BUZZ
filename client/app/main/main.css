@@ -1,5 +1,4 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
@@ -25,7 +24,7 @@ a {
 
 .dHomeIn{
   z-index: 1;
-  background: rgba(0,0,0,.6);
+  background: rgba(0,0,0,.3);
   top: 0px;
   bottom: 0px;
   left: 0px;
@@ -39,11 +38,12 @@ a {
   width: 35%;
   height: 38%;
   z-index: 1;
-  margin: 17% auto;
+  margin: 16% auto;
   position: relative;
   background-color: #ffffff;
   text-align: center;
-  border: 4px solid #808080;
+  border: 6px solid #808080;
+  background: rgba(255,255,255,.91);
 
 
 }
@@ -58,12 +58,14 @@ a {
   z-index: -1;
   text-align: center;
 
+
 }
 
 #logo{
   width: 50%;
   height: 170%;
   margin-left: 25%;
+
 
 }
 

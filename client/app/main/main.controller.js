@@ -4,11 +4,9 @@ angular.module('buzzApp')
   .controller('MainCtrl', function ($scope, $http,$window,Auth,$location) {
 
     $scope.isLoggedIn = Auth.isLoggedIn();
-    //$scope.isAdmin = Auth.isAdmin();
-    //$scope.getCurrentUser = Auth.getCurrentUser();
 
     if($scope.isLoggedIn){
-      $location.path('/home');
+      $location.path('/home/buzz');
     }
 
 

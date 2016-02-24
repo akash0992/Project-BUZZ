@@ -1,1 +1,92 @@
-<div>this is the home directive</div>
+<div ng-controller="HomeCtrl">
+  <div ng-include="'components/navbar/navbar.html'"></div>
+</div>
+
+<!--Container-->
+<div class="container">
+  <div class="row profile">
+    <div class="col-lg-3 col-sm-6">
+
+      <div class="card hovercard">
+        <div class="cardheader">
+
+        </div>
+        <div class="avatar">
+          <img alt="" src="{{imageUrl}}">
+        </div>
+        <div class="info">
+          <div class="title">
+            <a class="Uname">{{getUserName}}</a>
+          </div>
+          <!--<div class="desc">Passionate designer</div>-->
+          <div class="desc Uname">Curious Developer</div>
+          <!--<div class="desc">Tech geek</div>-->
+        </div>
+        <!--<div class="bottom">-->
+          <!--<a class="btn btn-primary glyphicon glyphicon-pencil btn-lg" href="">-->
+            <!--<i class="fa fa-twitter"></i>-->
+          <!--</a>-->
+          <!--<a class="btn btn-danger btn-lg" rel=""-->
+             <!--href="">-->
+            <!--<i class="fa fa-google-plus"></i>-->
+          <!--</a>-->
+          <!--<a class="btn btn-primary btn-lg" rel=""-->
+             <!--href="">-->
+            <!--<i class="fa fa-facebook"></i>-->
+          <!--</a>-->
+          <!--<a class="btn btn-warning btn-lg" rel="" href="">-->
+            <!--<i class="fa fa-behance"></i>-->
+          <!--</a>-->
+        <!--</div>-->
+
+        <!-- SIDEBAR MENU -->
+        <div class="profile-usermenu">
+          <ul class="nav">
+            <li>
+              <a ui-sref="home.buzz">
+                <i class="glyphicon glyphicon-pencil"></i>
+                Buzz </a>
+            </li>
+            <li>
+              <a ui-sref="home.compl">
+                <i class="glyphicon glyphicon-wrench"></i>
+                Complaint </a>
+            </li>
+            <li>
+              <a ui-sref="home.sett">
+                <i class="glyphicon glyphicon-user"></i>
+                Account Settings </a>
+            </li>
+            <!--<li>-->
+              <!--<a href="#">-->
+                <!--<i class="glyphicon glyphicon-ok"></i>-->
+                <!--Tasks </a>-->
+            <!--</li>-->
+            <!--<li>-->
+              <!--<a href="#">-->
+                <!--<i class="glyphicon glyphicon-flag"></i>-->
+                <!--Help </a>-->
+            <!--</li>-->
+          </ul>
+        </div>
+        <!-- END MENU -->
+
+
+      </div>
+
+    </div>
+
+    <div class="col-md-9 alginContent">
+      <div ui-view="">
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+<center>
+  <strong>Powered by AKASH YADAV</strong>
+</center>
+<br>
+<br>

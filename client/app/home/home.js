@@ -6,6 +6,7 @@ angular.module('buzzApp')
       .state('home', {
         url: '/home',
         templateUrl: 'app/home/home.html',
-        controller: 'HomeCtrl'
+        controller: 'HomeCtrl',
+        abstract: 'true'
       });
   });
