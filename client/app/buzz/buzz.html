@@ -1,48 +1,76 @@
-<div>
-<div class="col-md-12">
-
+<div class="col-md-12 first-gap">
   <div class="profile-content-buzz">
     <div class="createPost">
       <div class="createPost-head">
         <span class="glyphicon glyphicon-pencil">&nbsp;</span>Create Buzz
       </div>
       <div class="createPost-body">
-        <textarea value="{{content}}" placeholder="Share your thought...." class="form-control" rows="8" id="comment" ng-model="content"></textarea>
-        <!--<input type="text" value="{{content}}" placeholder="Share your thought....">-->
+        <textarea value="{{content}}" placeholder="Share your thought...." class="form-control" rows="4" id="comment" ng-model="content"></textarea>
       </div>
       <div class="createPost-foot">
         <div class="createPost-foot-front">
-
           <div class="dropdown categ">
-            <a href="#" data-toggle="dropdown" class="dropdown-toggle"> Category<b class="caret"></b></a>
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle"> Category{{' : '+category}}<b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="#" ng-click="setCategory('BUZZ')">Buzz</a></li>
               <li><a href="#" ng-click="setCategory('LAF')">Lost & Found</a></li>
             </ul>
           </div>
-
           <div class="uploadImg">
-            <img src="../../assets/images/img.png" ng-upload="">
+            <a class="img" href=""><img src="../../assets/images/img.png" ng-upload=""></a>
           </div>
-
         </div>
-
         <div class="createPost-foot-rarer">
           <a ng-click="userBuzz()" href="" class="glyphicon glyphicon-ok"></a>
         </div>
       </div>
     </div>
   </div>
-  </div>
+  <br>
+</div>
 
-<div class="col-md-12 post" ng-repeat="object in obj | orderBy:'-dateCreated'">
-
-  <div class="profile-content-post">
-    <div class="showPost">
-{{object.content}}
-
+<div ng-repeat="object in obj | orderBy:'-dateCreated' " class="gap">
+  <div class="col-md-12 post" ng-if="object.category == 'BUZZ' " >
+    <div class="profile-content-post">
+      <div class="showPost">
+        <div class="showPost-head">
+          User : {{object.uId}}, posted a {{object.category}}, on {{object.dateCreated}}
+        </div>
+        <div class="showPost-body">
+          <div class="showPost-body-image" ng-if="object.mUrl!='' ">
+            <img src="{{object.mUrl}}">
+          </div><br>
+          <div class="showPost-body-text">
+            {{object.content}}
+          </div>
+        </div>
+        <div class="showPost-foot">
+          <a href="" ng-click=""><img src="../../assets/images/like.png"></a>&nbsp;&nbsp;&nbsp;
+          <a href="" ng-click=""><img src="../../assets/images/dislike.png"></a>&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
     </div>
   </div>
 
-</div>
+  <div class="col-md-12 post" ng-if="object.category == 'LAF' " >
+    <div class="profile-content-post-laf">
+      <div class="showPost-laf">
+        <div class="showPost-laf-head">
+          User : {{object.uId}}, posted a {{object.category}}, on {{object.dateCreated}}
+        </div>
+        <div class="showPost-laf-body">
+          <div class="showPost-laf-body-image" ng-if="object.mUrl!='' ">
+            <img src="{{object.mUrl}}">
+          </div><br>
+          <div class="showPost-laf-body-text">
+            {{object.content}}
+          </div>
+        </div>
+        <!--<div class="showPost-laf-foot">-->
+          <!--<a href="" ng-click=""><img src="../../assets/images/like.png"></a>&nbsp;&nbsp;&nbsp;-->
+          <!--<a href="" ng-click=""><img src="../../assets/images/dislike.png"></a>&nbsp;&nbsp;&nbsp;-->
+        <!--</div>      -->
+      </div>
+    </div>
+  </div>
 </div>

@@ -1,9 +1,9 @@
 
 
 .profile-content-buzz{
-  padding: 20px;
+  padding: 12px;
   background: #fff;
-  min-height: 250px;
+  min-height: 180px;
   margin-top: 10px;
   border-radius: 2% 2%;
 }
@@ -24,7 +24,7 @@
 }
 
 .createPost-body{
-  min-height: 180px;
+  min-height: 110px;
   background-color: #ffffff;
   padding: 7px;
   border: 1px solid rgba(91, 128, 127, 0.69);
@@ -64,21 +64,21 @@ div.createPost-foot-front div.dropdown a.dropdown-toggle{
 }
 
 .profile-content-post{
-  padding: 20px;
+  padding: 12px;
   background: #fff;
-  min-height: 150px;
+  min-height: 50px;
   margin-top: auto;
-  border-radius: 2% 2%;
+  border-radius: 3%;
 }
 
 .showPost{
-  border: 2px solid rgba(91, 128, 127, 0.69);
+  border: 3px solid rgba(91, 128, 127, 0.69);
   min-height: inherit;
-  border-radius: 2%;
+  border-radius: 3%;
 }
 
 .post{
-  padding: 15px;
+  padding: 2px;
 }
 
 textarea {
@@ -93,6 +93,94 @@ textarea {
 
 .categ{
 
-  width: 45%;
+  width: 32%;
   float: left;
+}
+
+.profile-content-post-laf{
+  padding: 12px;
+  background: #fff;
+  min-height: 50px;
+  margin-top: auto;
+  border-radius: 7%;
+}
+
+.showPost-laf{
+  border: 3px solid rgba(12, 166, 76, 0.73);
+  min-height: inherit;
+  border-radius: 2%;
+}
+
+.gap{
+  padding-bottom: 0%;
+}
+
+.first-gap{
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.showPost-head{
+  min-height: 35px;
+  background-color: rgba(200, 220, 214, 0.58);
+  color: #000000;
+  padding: 7px;
+  border-radius: 2%;
+
+}
+
+.showPost-body{
+  min-height: 20px;
+  background-color: #ffffff;
+  padding: 7px;
+}
+
+.showPost-foot{
+  min-height: 35px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 7px;
+  border-top: 1px solid rgba(91, 128, 127, 0.69);
+  text-align: right;
+}
+
+.showPost-body-image{
+
+}
+
+.showPost-body-text{
+
+}
+
+
+.showPost-laf-head{
+  min-height: 35px;
+  background-color: rgba(10, 140, 56, 0.27);
+  color: #000000;
+  padding: 7px;
+  border-radius: 2%;
+
+}
+
+.showPost-laf-body{
+  min-height: 20px;
+  background-color: #ffffff;
+  padding: 7px;
+}
+
+.showPost-laf-foot{
+  min-height: 35px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 7px;
+  border-top: 1px solid rgba(91, 128, 127, 0.69);
+  text-align: right;
+}
+
+.showPost-laf-body-image{
+
+}
+
+.showPost-laf-body-text{
+
 }

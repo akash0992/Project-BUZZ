@@ -4,6 +4,7 @@ angular.module('buzzApp')
   .controller('BuzzCtrl', function ($scope,$http,Auth) {
 
     $scope.obj=[];
+    $scope.category='BUZZ';
 
     $http.get("/api/posts")
       .then(function(response){
@@ -17,6 +18,12 @@ angular.module('buzzApp')
     }
 
     $scope.userBuzz = function(){
+
+      if($scope.content==null || $scope.content == "" ){
+        alert("Content of Buzz can't be Blank !!!");
+        return false;
+      }
+
       var data={
         category:$scope.category,//['BUZZ','COMPLAINT']
         dateCreated:Date.now(),
@@ -36,6 +43,8 @@ angular.module('buzzApp')
           console.log("buzz.controller.js ---- userBuzz ----- post");
           console.log("res",res);
           $scope.obj.push(res.data);
+          $scope.content = "";
+          $scope.category = "BUZZ";
         }, function(err){
           console.log("err", err)
         });
