@@ -1,3 +1,98 @@
 
 
+.profile-content-buzz{
+  padding: 20px;
+  background: #fff;
+  min-height: 250px;
+  margin-top: 10px;
+  border-radius: 2% 2%;
+}
 
+.createPost{
+  border: 2px solid rgba(91, 128, 127, 0.69);
+  min-height: inherit;
+  border-radius: 2%;
+}
+
+.createPost-head{
+  min-height: 35px;
+  background-color: rgba(200, 220, 214, 0.58);
+  color: #000000;
+  padding: 7px;
+  border-radius: 2%;
+  border: 1px solid rgba(91, 128, 127, 0.69);
+}
+
+.createPost-body{
+  min-height: 180px;
+  background-color: #ffffff;
+  padding: 7px;
+  border: 1px solid rgba(91, 128, 127, 0.69);
+}
+
+.createPost-foot{
+  min-height: 35px;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 7px;
+  border-radius: 2%;
+  border: 1px solid rgba(91, 128, 127, 0.69);
+}
+
+.createPost-foot-front{
+  min-width: 49%;
+  float: left;
+}
+
+.createPost-foot-rarer{
+  min-width: 49%;
+  float: left;
+  text-align: right;
+}
+
+div.createPost-foot-rarer a{
+  color: #00B7FF;
+  font-size: medium;
+}
+
+div.createPost-foot-rarer a:hover{
+  color: #00B7FF;
+}
+
+div.createPost-foot-front div.dropdown a.dropdown-toggle{
+  color: #000000;
+}
+
+.profile-content-post{
+  padding: 20px;
+  background: #fff;
+  min-height: 150px;
+  margin-top: auto;
+  border-radius: 2% 2%;
+}
+
+.showPost{
+  border: 2px solid rgba(91, 128, 127, 0.69);
+  min-height: inherit;
+  border-radius: 2%;
+}
+
+.post{
+  padding: 15px;
+}
+
+textarea {
+  resize: none;
+}
+
+.uploadImg{
+
+  float: left;
+  width: 48%;
+}
+
+.categ{
+
+  width: 45%;
+  float: left;
+}

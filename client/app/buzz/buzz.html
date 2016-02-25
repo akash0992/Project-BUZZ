@@ -1,5 +1,48 @@
-<div class="col-md-12" ng-controller="BuzzCtrl">
-  <div class="profile-content">
-    Some user related content goes here...
+<div>
+<div class="col-md-12">
+
+  <div class="profile-content-buzz">
+    <div class="createPost">
+      <div class="createPost-head">
+        <span class="glyphicon glyphicon-pencil">&nbsp;</span>Create Buzz
+      </div>
+      <div class="createPost-body">
+        <textarea value="{{content}}" placeholder="Share your thought...." class="form-control" rows="8" id="comment" ng-model="content"></textarea>
+        <!--<input type="text" value="{{content}}" placeholder="Share your thought....">-->
+      </div>
+      <div class="createPost-foot">
+        <div class="createPost-foot-front">
+
+          <div class="dropdown categ">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle"> Category<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="#" ng-click="setCategory('BUZZ')">Buzz</a></li>
+              <li><a href="#" ng-click="setCategory('LAF')">Lost & Found</a></li>
+            </ul>
+          </div>
+
+          <div class="uploadImg">
+            <img src="../../assets/images/img.png" ng-upload="">
+          </div>
+
+        </div>
+
+        <div class="createPost-foot-rarer">
+          <a ng-click="userBuzz()" href="" class="glyphicon glyphicon-ok"></a>
+        </div>
+      </div>
+    </div>
   </div>
+  </div>
+
+<div class="col-md-12 post" ng-repeat="object in obj | orderBy:'-dateCreated'">
+
+  <div class="profile-content-post">
+    <div class="showPost">
+{{object.content}}
+
+    </div>
+  </div>
+
+</div>
 </div>

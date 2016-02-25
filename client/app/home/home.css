@@ -110,6 +110,30 @@ body {
   min-height: 460px;
   margin-top: 10px;
 }
+
+
+
+.profile-content-compl{
+  padding: 20px;
+  background: #fff;
+  min-height: 220px;
+  margin-top: 10px;
+}
+
+.profile-content-laf{
+  padding: 20px;
+  background: #fff;
+  min-height: 220px;
+  margin-top: 10px;
+}
+
+.profile-content-sett{
+  padding: 20px;
+  background: #fff;
+  min-height: 220px;
+  margin-top: 10px;
+}
+
 .card {
   padding-top: 20px;
   margin: 10px 0 20px 0;
@@ -300,7 +324,7 @@ body {
   padding-top: 0;
   overflow: hidden;
   text-align: center;
-  background-color: rgba(51, 153, 255, .5);
+  background-color: rgba(51, 153, 255, .8);
 }
 
 .card.hovercard .cardheader {
@@ -366,4 +390,32 @@ body {
 a:hover, a:focus {
   color: #ffffff;
   text-decoration: none;
+}
+
+
+.text
+{
+  font-size: 10px;
+  color: #427fed;
+}
+
+.img_size
+{
+  height: 10px;
+  width: 10px;
+}
+
+.cardfotter{
+  clear: both;
+  background-color: transparent;
+  color: #427fed;
+}
+
+div span a{
+  text-decoration: none;
+  color: #427fed;
+}
+
+div span a:hover{
+  color: #427fed;
 }

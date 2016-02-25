@@ -7,7 +7,7 @@ var authTypes = ['github', 'twitter', 'facebook', 'google'];
 
 var UserSchema = new Schema({
   name: String,
-  email: { type: String, lowercase: true },
+  email: { type: String, lowercase: true /*, match:/^[a-z0-9._%+-]+@tothenew\.com$/  */ },
   role: {
     type: String,
     default: 'user'

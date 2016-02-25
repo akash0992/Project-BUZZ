@@ -1,0 +1,1000 @@
+  949  git remote add origin ghttps://github.com/akash0992/BootCamp.git
+  950  git push origin master
+  951  git clone origin https://github.com/akash0992/BootCamp.git
+  952  git clone BootCamp:https://github.com/akash0992/BootCamp.git
+  953  cd ~/.ssh
+  954  ssh-keygen
+  955  l1
+  956  cat id_rsa
+  957  cat id_rsa.pub
+  958  cd Desktop/
+  959  cd..
+  960  cd ..
+  961  cd Desktop/
+  962  cd Bootcamp/
+  963  git remote add origin ghttps://github.com/akash0992/BootCamp.git
+  964  git remote add origin ghttps://github.com/akash0992/BootCamp.gitexit
+  965  exit
+  966  cd Desktop/
+  967  cd BgitBootCamp/
+  968  cd gitBootCamp/
+  969  git init
+  970  git remote add origin ggit@github.com:akash0992/boot-camp.git
+  971  echo "Akash Yadav" >> contributors.txt
+  972  git add contributors.txt
+  973  git commit -m 'initial commit'
+  974  git push -u origin master
+  975  cd ..
+  976  exit
+  977  cd Desktop/
+  978  cd push_git/
+  979  git init
+  980  git remote add origin git@github.com:akash0992/boot-camp.git
+  981  echo "Akash Yadav" >> contributors.txt
+  982  git add contributors.txt
+  983  git commit -m 'initial commit'
+  984  git push origin master
+  985  git config --global user.email "akash.yadav@tothenew.com"
+  986  git config --global user.name akash0992
+  987  git config --global user.name "akash0992"
+  988  git commit -m 'initial commit'
+  989  git log
+  990  git status
+  991  git push -u origin master
+  992  git branch
+  993  l1
+  994  ls -al
+  995  gedit .bashrc
+  996  gs
+  997  gl
+  998  . .bashrc
+  999  exit
+ 1000  cd Desktop/
+ 1001  cd push_git/
+ 1002  gs
+ 1003  gl
+ 1004  gb
+ 1005  l1
+ 1006  git padd .
+ 1007  git add .
+ 1008  git commit -m 'first commit'
+ 1009  git push -u origin master
+ 1010  git push master
+ 1011  git push -u origin master
+ 1012  gb
+ 1013  gl
+ 1014  gs
+ 1015  git pull master
+ 1016  git pull
+ 1017  exit
+ 1018  gedit .bashrc
+ 1019  . .bashrc
+ 1020  node main.js
+ 1021  node d3.js
+ 1022  node d4.js
+ 1023  node d5.js
+ 1024  node d6.js
+ 1025  node d7.js
+ 1026  node d8.js
+ 1027  cd ~/.ssh
+ 1028  l1
+ 1029  cat id_rsa.pub
+ 1030  fsck
+ 1031  mongo -v
+ 1032  mongodb -v
+ 1033  mongodb -version
+ 1034  . .bashrc
+ 1035  mongodb -version
+ 1036  mongod -
+ 1037  mongodb --version
+ 1038  mongo --version
+ 1039  sudo mangod
+ 1040  sudo mangodb
+ 1041  gedit .bashrc
+ 1042  sudo mangod
+ 1043  sudo mangodb
+ 1044  sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+ 1045  echo "deb http://repo.mongodb.org/apt/ubuntu "$(lsb_release -sc)"/mongodb-org/3.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.0.list
+ 1046  sudo apt-get install -y mongodb-org
+ 1047  service mongod status
+ 1048  mongod --version
+ 1049  gedit .bashrc
+ 1050  java -version
+ 1051  gedit .bashrc
+ 1052  . .bashrc
+ 1053  mongod --version
+ 1054  echo $PATH
+ 1055  . .bashrc
+ 1056  gedit .bashrc
+ 1057  . .bashrc
+ 1058  mongod --version
+ 1059  pwd
+ 1060  cd data
+ 1061  mdkir data
+ 1062  mongod
+ 1063  mkdir data
+ 1064  cd data
+ 1065  mkdir db
+ 1066  cd ..
+ 1067  ls -la data
+ 1068  mongod
+ 1069  sudo mongod
+ 1070  cd 
+ 1071  sudo chmod -777 /data/db
+ 1072  mongod
+ 1073  cd /data/db
+ 1074  sudo cd /data/db
+ 1075  pwd
+ 1076  cd /data
+ 1077  ls -;
+ 1078  ls -l
+ 1079  chmod -777 db
+ 1080  sudo chmod -777 db
+ 1081  ls 
+ 1082  mongod
+ 1083  mongod --version
+ 1084  service mongod status
+ 1085  sudo service mongod status
+ 1086  sudo mongod
+ 1087  mongo
+ 1088  sudo apt-get install -y mongodb-org
+ 1089  sudo chown -R akash /data/db
+ 1090  mongod
+ 1091  ls /data
+ 1092  ls 
+ 1093  ls -la
+ 1094  sudo chown -R root /data/db
+ 1095  mongod
+ 1096  gedit .bashrc
+ 1097  ln -s jdk1.8.0_71 JAVA_HOME
+ 1098  cd ..
+ 1099  cd opt/
+ 1100  ln -s mongodb-linux-x86_64-3.o.4 MONGO_DBcd 
+ 1101  cd ..
+ 1102  mkdir data
+ 1103  sudo mkdir data
+ 1104  cd data
+ 1105  mkdir db
+ 1106  sudo mkdir db
+ 1107  cd db
+ 1108  cd ..
+ 1109  cd opt/
+ 1110  ln
+ 1111  gedit .bashrc
+ 1112  node -v
+ 1113  . .bashrc
+ 1114  node -v
+ 1115  npm help
+ 1116  node -v
+ 1117  npm -v
+ 1118  npm install -express
+ 1119  npm install -g express
+ 1120  ls
+ 1121  npm ls
+ 1122  node
+ 1123  npm install -g learnyounode
+ 1124  learnyounode
+ 1125  cd Desktop/
+ 1126  cd Bootcamp/
+ 1127  mkdir learnyounode
+ 1128  cd learnyounode/
+ 1129  cat > prg1.js
+ 1130  learnyounode verify prg1.js
+ 1131  learnyounode
+ 1132  learnyounode verify my_io.js prg1.js
+ 1133  learnyounode
+ 1134  learnyounode verify my_io_cb.js prg1.js
+ 1135  learnyounode
+ 1136  learnyounode verify my_io_cb.js prg1.js
+ 1137  learnyounode
+ 1138  learnyounode verify extension.js . 'txt'
+ 1139  learnyounode verify extension.js
+ 1140  learnyounode
+ 1141  learnyounode verify prg1.js
+ 1142  learnyounode verify my_io_cb.js prg1.js
+ 1143  learnyounode verify my_io.js prg1.js
+ 1144  learnyounode
+ 1145  learnyounode verify process_args.js
+ 1146  learnyounode verify process_argv.js
+ 1147  learnyounode
+ 1148  learnyounode verify my_io.js prg1.js
+ 1149  learnyounode
+ 1150  learnyounode verify my_io_cb.js prg1.js
+ 1151  learnyounode
+ 1152  learnyounode verify mod2.js . 'txt'
+ 1153  learnyounode verify mod2.js
+ 1154  learnyounode verify mod2.js . 'txt'
+ 1155  learnyounode verify mod2.js
+ 1156  learnyounode
+ 1157  learnyounode verify process_argv.js
+ 1158  learnyounode
+ 1159  learnyounode verify http_client.js
+ 1160  learnyounode
+ 1161  learnyounode verify http_collect.js
+ 1162  learnyounode
+ 1163  learnyounode verify juggling.js
+ 1164  learnyounode verify tserver.js
+ 1165  learnyounode
+ 1166  learnyounode verify tserver.js
+ 1167  learnyounode
+ 1168  learnyounode verify fserver.js
+ 1169  learnyounode
+ 1170  learnyounode verify juggling.js
+ 1171  learnyounode
+ 1172  learnyounode verify json.js
+ 1173  learnyounode
+ 1174  learnyounode verify juggling.js
+ 1175  learnyounode
+ 1176  learnyounode verify tserver.js
+ 1177  learnyounode
+ 1178  learnyounode verify fserver.js
+ 1179  learnyounode
+ 1180  learnyounode verify ucase.js
+ 1181  learnyounode
+ 1182  learnyounode verify json.js
+ 1183  learnyounode
+ 1184  learnyounode verify http_collect.js
+ 1185  learnyounode
+ 1186  learnyounode verify http_client.js
+ 1187  mongod --dbpath
+ 1188  mongod --path
+ 1189  mongod dbpath
+ 1190  mongod
+ 1191  sudo mongod
+ 1192  mongod
+ 1193  mongo
+ 1194  sudo mongod
+ 1195  cd ..
+ 1196  pwd
+ 1197  mongod
+ 1198  pwd
+ 1199  cd /home/akash/
+ 1200  mongod --version
+ 1201  mongod --dbpath data/db
+ 1202  mongod
+ 1203  sudo mongod
+ 1204  gedit .bashrc
+ 1205  . .bashrc
+ 1206  cd Desktop/
+ 1207  cd Bootcamp/
+ 1208  cd learnyounode/
+ 1209  node process_argv.js
+ 1210  node process_argv.js 1 2 3
+ 1211  node my_io.js
+ 1212  node my_io.js prg1.js
+ 1213  node my_io_cb.js prg1.js
+ 1214  node extension.js
+ 1215  node extension.js
+ 1216  node extension.js ~/
+ 1217  node extension.js . 'txt'
+ 1218  node mod2.js . 'txt'
+ 1219  node process_argv.js 1 2 3
+ 1220  node http_client.js www.google.com
+ 1221  node http_client.js file1.txt
+ 1222  node http_client.js http_client
+ 1223  node http_client.js http_client.js
+ 1224  node http_collect.js www.google.com
+ 1225  node http_collect.js google
+ 1226  node http_collect.js
+ 1227  node tserver.js
+ 1228  node fserver.js http://www.google.co.in
+ 1229  node juggling.js http://www.google.co.in  http://www.google.co.in  http://www.google.co.in
+ 1230  cd ..
+ 1231  cd ~
+ 1232  sudo mongod
+ 1233  sudo md
+ 1234  md
+ 1235  npm install -g git-it
+ 1236  node
+ 1237  git-it
+ 1238  npm install -g scope-chains-closures
+ 1239  scope-chains-closures
+ 1240  npm install learnyoumongo -g
+ 1241  learnyoumongo
+ 1242  gedit .bashrc
+ 1243  mongo
+ 1244  > db.student.insert({address : { building : '74', street : 'sector 20', zipcode : '201302'}, email : 'akash_aki@tothenew.com', stdname : 'akash_aki', grades : [ { date : 1393804800000, grade : 'A', score : 2, subject : 'Java'},{ date : 1383804800000, grade : 'A', score : 6, subject : 'C'},{ date : 1373804800000, grade : 'A', score : 10, subject : 'C++'},{ date : 1363804800000, grade : 'A', score : 9, subject : 'PHP'},{ date : 1353804800000, grade : 'A', score : 14, subject : 'MongoDB'}], std_id : '30075447' });
+ 1245  WriteResult({ "nInserted" : 1 })
+ 1246  > db.student.insert({address : { building : '74', street : 'sector 19', zipcode : '201302'}, email : 'akash_yadav@tothenew.com', stdname : 'akash_yadav', grades : [ { date : 1393804800000, grade : 'A', score : 2, subject : 'Java'},{ date : 1383804800000, grade : 'A', score : 6, subject : 'C'},{ date : 1373804800000, grade : 'A', score : 10, subject : 'C++'},{ date : 1363804800000, grade : 'A', score : 9, subject : 'PHP'},{ date : 1353804800000, grade : 'A', score : 14, subject : 'MongoDB'}], std_id : '30075449' });
+ 1247  WriteResult({ "nInserted" : 1 })
+ 1248  mongo
+ 1249  exit
+ 1250  md
+ 1251  exit
+ 1252  service mongod status
+ 1253  sudo service mongod status
+ 1254  sudo mongod service status
+ 1255  exit
+ 1256  cd Desktop/
+ 1257  history > cmd.txt
+ 1258  cd ~/.ssh
+ 1259  l1
+ 1260  cat id_rsa.pub
+ 1261  exit
+ 1262  mongo
+ 1263  exit
+ 1264  md
+ 1265  exit
+ 1266  cd .ssh
+ 1267  cat id_rsa.pub 
+ 1268  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1269  cd ..
+ 1270  . .bashrc
+ 1271  cd Desktop/GitLab/
+ 1272  git config --global user.name "Akash Yadav"
+ 1273  git config --global user.email "akash.yadav@tothenew.com"
+ 1274  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1275  mkdir akash-yadav
+ 1276  cd akash-yadav
+ 1277  touch README.md
+ 1278  git add README.md
+ 1279  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1280  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016//akash-yadav.git
+ 1281  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1282  git init
+ 1283  git remote add origin git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1284  git add .
+ 1285  git commit
+ 1286  git push -u origin master
+ 1287  git remote add origin git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1288  git push -u origin master
+ 1289  git config --global user.name "Akash Yadav"
+ 1290  git config --global user.email "akash.yadav@tothenew.com"
+ 1291  git push -u origin master
+ 1292  cd Desktop/Bootcamp/npm/
+ 1293  git clone git@github.com:deepakshrma/starting-with-npm-express-rest-api.git
+ 1294  cd .ssh
+ 1295  cd ..
+ 1296  cd .ssh
+ 1297  cat id_rsa.pub 
+ 1298  cd
+ 1299  cd Desktop/Bootcamp/
+ 1300  l1
+ 1301  cd
+ 1302  cd GitLab/
+ 1303  git clone git@github.com:deepakshrma/starting-with-npm-express-rest-api.git
+ 1304  cd
+ 1305  git clone git@github.com:deepakshrma/starting-with-npm-express-rest-api.git
+ 1306  cd
+ 1307  git status
+ 1308  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1309  pwd
+ 1310  mkdir -p GitLab/
+ 1311  cd GitLab/
+ 1312  git init
+ 1313  git remote add origin git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1314  touch README.md
+ 1315  git add .
+ 1316  git commit -m "initial commit"
+ 1317  git push -u origin master
+ 1318  git config
+ 1319  git config user.name "Akash Yadav"
+ 1320  git config  ser.email "akash.yadav@tothenew.com"
+ 1321  git config  user.email "akash.yadav@tothenew.com"
+ 1322  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1323  pwd
+ 1324  . .bashrc
+ 1325  cd ..
+ 1326  . .bashrc
+ 1327  cd GitLab/
+ 1328  . .bashrc
+ 1329  cd ..
+ 1330  . .bashrc
+ 1331  cd GitLab/
+ 1332  git config user.name "Akash Yadav"
+ 1333  git init
+ 1334  git config user.name "Akash Yadav"
+ 1335  git config user.email "akash.yadav@tothenew.com"
+ 1336  touch README.md
+ 1337  git commit -am "initial commit"
+ 1338  git push -u origin master
+ 1339  cd .ssh
+ 1340  cat id_rsa.pub 
+ 1341  node server.js
+ 1342  npm install
+ 1343  node server.js
+ 1344  cd Desktop/GitBucket/
+ 1345  git clone git@bitbucket.org:akash0992/git_repo.git
+ 1346  cd .ssh
+ 1347  cat id_rsa.pub 
+ 1348  cd BootCamp/
+ 1349  npm install -g npm
+ 1350  npm whoami
+ 1351  npm -v
+ 1352  npm user
+ 1353  npm adduser
+ 1354  npm whoami
+ 1355  cd Desktop/Bootcamp/npm/
+ 1356  mkdir a-http-server
+ 1357  cd a-http-server/
+ 1358  l1
+ 1359  npm init --scope=deepakvishwakarma -y
+ 1360  npm init
+ 1361  npm init --scope=deepakvishwakarma -y
+ 1362  npm init -y
+ 1363  npm init --scope=deepakvishwakarma -y
+ 1364  npm install @linclark/pkg
+ 1365  npm install @linclark/pkg --save
+ 1366  npm install -g @linclark/pkg --save
+ 1367  npm i -g how-to-npm
+ 1368  how-to-npm
+ 1369  how-to-npm verify
+ 1370  how-to-npm
+ 1371  mkdir how-to-npm
+ 1372  cd how-to-npm/
+ 1373  how-to-npm verify
+ 1374  how-to-npm
+ 1375  how-to-npm verify
+ 1376  npm whoami
+ 1377  how-to-npm verify
+ 1378  how-to-npm
+ 1379  cd ..
+ 1380  npm init --scope=deepakvishwakarma -y
+ 1381  how-to-npm verify
+ 1382  how-to-npm
+ 1383  how-to-npm verify
+ 1384  cd how-to-npm/
+ 1385  how-to-npm verify
+ 1386  npm init --scope=deepakvishwakarma -y
+ 1387  how-to-npm verify
+ 1388  how-to-npm
+ 1389  npm install -g @linclark/pkg --save
+ 1390  how-to-npm verify
+ 1391  npm install @linclark/pkg --save
+ 1392  how-to-npm verify
+ 1393  how-to-npm
+ 1394  npm ls
+ 1395  how-to-npm verify
+ 1396  how-to-npm verify ok
+ 1397  how-to-npm
+ 1398  how-to-npm verify 
+ 1399  how-to-npm
+ 1400  how-to-npm verify
+ 1401  npm test
+ 1402  how-to-npm
+ 1403  npm install http-server --save-dev
+ 1404  npm install -g http-server --save-dev
+ 1405  cd ..
+ 1406  mkdir express-app && cd express-app
+ 1407  mkdir -p router views
+ 1408  touch router/index.js views/index.html views/about.html server.js
+ 1409  npm init --scope=express-app -y
+ 1410  npm i express --save
+ 1411  npm install
+ 1412  cd express-app/
+ 1413  node server.js
+ 1414  pwd
+ 1415  l1
+ 1416  mkdir GitLab
+ 1417  cd GitLab/
+ 1418  git clone git@gitlab.intelligrape.net:bootcamp-mean-2016/akash-yadav.git
+ 1419  touch README.md
+ 1420  git commit -am "add README"
+ 1421  git push -u origin master
+ 1422  npm i express-generator -g
+ 1423  express express-gapp
+ 1424  cd Desktop/
+ 1425  cd GitBucket/
+ 1426  git clone git@github.com:deepakshrma/starting-with-npm-express-rest-api.git
+ 1427  cd GitLab/
+ 1428  l1
+ 1429  cd akash-yadav/
+ 1430  l1
+ 1431  cd
+ 1432  cd GitLab/
+ 1433  l1
+ 1434  git push -u origin master
+ 1435  cd akash-yadav/
+ 1436  touch README.md
+ 1437  git commit -am "add README"
+ 1438  git push -u origin master
+ 1439  git add README.md
+ 1440  git push -u origin master
+ 1441  git commit -am "add README"
+ 1442  git push -u origin master
+ 1443  gs
+ 1444  gl
+ 1445  exit
+ 1446  cd advanced-npm/
+ 1447  cd http-server/
+ 1448  node index.js
+ 1449  cd ..
+ 1450  npm i express --save
+ 1451  npm i -g  express --save
+ 1452  npm i express --save
+ 1453  node index.js
+ 1454  cd express-app/
+ 1455  node server.js
+ 1456  cd ..
+ 1457  cd a-http-server/
+ 1458  node index.js
+ 1459  node server.js
+ 1460  node index.js
+ 1461  node server.js
+ 1462  npm i express --save
+ 1463  node server.js
+ 1464  cd ..
+ 1465  npm i express --save
+ 1466  cd a-http-server/
+ 1467  node server.js
+ 1468  express
+ 1469  express --help
+ 1470  express --ejs
+ 1471  mkdir mongoos_demo && cd mongoos_demo
+ 1472  npm init
+ 1473  l1
+ 1474  l1 -al
+ 1475  cat package.json 
+ 1476  exit
+ 1477  npm start
+ 1478  cd express-app/
+ 1479  node server.js
+ 1480  node myServer.js
+ 1481  cd ..
+ 1482  cd ejs
+ 1483  npm init -y
+ 1484  l1
+ 1485  l1 -al
+ 1486  npm i mongoose --save
+ 1487  node test.js
+ 1488  npm i express --save
+ 1489  node test.js
+ 1490  cd ..
+ 1491  cd mongoos_demo/
+ 1492  cd expressApi/
+ 1493  npm init
+ 1494  npm i -g mongoose
+ 1495  cd WebstormProjects/
+ 1496  mkdir api_express && cd api_express
+ 1497  express --ejs --css api_express
+ 1498  npm init
+ 1499  npm i mongoose --save
+ 1500  npm install
+ 1501  npm i mongoose --save
+ 1502  exit
+ 1503  express --ejs --css MyApiServerMongoose
+ 1504  npm install
+ 1505  npm install mongoose --save
+ 1506  npm start
+ 1507  mongo
+ 1508  exit
+ 1509  ps -xa | grep node
+ 1510  exit
+ 1511  md
+ 1512  mongod
+ 1513  mongodb
+ 1514  md
+ 1515  exit
+ 1516  cd Desktop/
+ 1517  history > cmd_9_2_16.txt
+ 1518  mongo
+ 1519  md
+ 1520  gedit .bashrc
+ 1521  mongo
+ 1522  md
+ 1523  mongo
+ 1524  cd Desktop/
+ 1525  mongodump  --db MyApiServerMongoose --collection users
+ 1526  exit
+ 1527  md
+ 1528  mongo
+ 1529  exit
+ 1530  cd expressApi
+ 1531  npm start
+ 1532  cd ..
+ 1533  cd expressApi (2)
+ 1534  cd expressApi(2)
+ 1535  cd expressApi(2)/
+ 1536  cd expressApi (2)/
+ 1537  cd expressApi(2)/
+ 1538  cd expressApi(2)
+ 1539  cd expressApi(2)/
+ 1540  cd expressApi_2
+ 1541  cd expressApi/
+ 1542  npm start
+ 1543  express --ejs --css MyAppWithAngular
+ 1544  npm install
+ 1545  npm install mongoose --save
+ 1546  npm start
+ 1547  npm install cors --save
+ 1548  npm start
+ 1549  npm install
+ 1550  npm start
+ 1551  npm install -g bower 
+ 1552  bower init
+ 1553  cd AdvanceAngular/
+ 1554  bower init
+ 1555  bower install angular --save
+ 1556  mongo
+ 1557  md
+ 1558  npm install -g grunt-cli
+ 1559  yo
+ 1560  grunt serve
+ 1561  express --ejs --save
+ 1562  express --ejs
+ 1563  npm install
+ 1564  npm install --save
+ 1565  npm install --save --dev
+ 1566  touch Gruntfile.js
+ 1567  npm install --save
+ 1568  grunt
+ 1569  npm install -g yo bower grunt-cli
+ 1570  npm install -g generator-angular-fullstack
+ 1571  npm install -g generator-angular-fullstack@2.1.1
+ 1572  yo
+ 1573  grunt surf
+ 1574  grunt serve
+ 1575  grunt serve --force
+ 1576  mkdir newPro && cd newPro
+ 1577  yo
+ 1578  grunt serve
+ 1579  ls
+ 1580  yo
+ 1581  pwd
+ 1582  ls -a
+ 1583  grunt serve
+ 1584  express --ejs --save
+ 1585  express --ejs
+ 1586  mongo
+ 1587  cd Desktop/
+ 1588  history > cmd_13_2_16.txt
+ 1589  mongo
+ 1590  exit
+ 1591  md
+ 1592  exit
+ 1593  exit
+ 1594  cd ..
+ 1595  l1
+ 1596  cd media/
+ 1597  cd akash/
+ 1598  cd Data/
+ 1599  l1
+ 1600  cd ECMA_Script_6_Features/
+ 1601  git clone git@github.com:lukehoban/es6features.git
+ 1602  cd ..
+ 1603  cd NodeJS/
+ 1604  git clone git@github.com:nodejs/node.git
+ 1605  cd ..
+ 1606  cd media/
+ 1607  cd akash/
+ 1608  cd Data/
+ 1609  cd Mongoose/
+ 1610  git clone git@github.com:Automattic/mongoose.git
+ 1611  cd ..
+ 1612  cd media/
+ 1613  cd akash/
+ 1614  cd Data/
+ 1615  cd Express/
+ 1616  git clone git@github.com:expressjs/express.git
+ 1617  cd ..
+ 1618  cd Angular/
+ 1619  l1
+ 1620  git clone git@github.com:angular/angular.js.git
+ 1621  cd ui-route/
+ 1622  git clone git@github.com:angular-ui/ui-router.git
+ 1623  cd ..
+ 1624  mkdir myFirstBootCamp
+ 1625  cd myFirstBootCamp/
+ 1626  git clone git@github.com:akash0992/my-first-boot-camp.git
+ 1627  touch first.txt
+ 1628  git add .
+ 1629  l1
+ 1630  cd my-first-boot-camp/
+ 1631  touch first.txt
+ 1632  git add .
+ 1633  git commit -m "firstcommit"
+ 1634  git push -u origin master
+ 1635  gs
+ 1636  gl
+ 1637  git add .
+ 1638  git commit -m "secondcommit"
+ 1639  git push -u origin master
+ 1640  git add .
+ 1641  git commit -m "thirdcommit"
+ 1642  git push -u origin master
+ 1643  gs
+ 1644  gl
+ 1645  exit
+ 1646  cd Desktop/
+ 1647  >history > cmd_14_2_16.txt
+ 1648  history > cmd_14_2_16.txt
+ 1649  express --ejs
+ 1650  npm install
+ 1651  bower install angular --save
+ 1652  bower install angular-route --save
+ 1653  bower init
+ 1654  bower install bootstrap --save
+ 1655  bower install -g bootstrap --save
+ 1656  bower install -g angular-route --save
+ 1657  bower install -g angular-resource --save
+ 1658  bower install -g angular --save
+ 1659  bower install
+ 1660  npm install -g mongoose --save
+ 1661  npm install mongoose --save
+ 1662  npm install -g mongoose --save
+ 1663  bower install
+ 1664  npm install
+ 1665  npm install mongoose --save
+ 1666  bower install -g angular-ui-router --save
+ 1667  cd ..
+ 1668  l1
+ 1669  cd angular-fullstack-yo/
+ 1670  npm install -g generator-angular-fullstack@2.1.1 --save
+ 1671  npm install generator-angular-fullstack@2.1.1 --save
+ 1672  bower init
+ 1673  bower install
+ 1674  cd AdvanceAngularAssignment/
+ 1675  npm start
+ 1676  npm install
+ 1677  bower install
+ 1678  npm start
+ 1679  bower install --save
+ 1680  npm install
+ 1681  npm start
+ 1682  mongo
+ 1683  md
+ 1684  npm start
+ 1685  npm start
+ 1686  cd AdvanceAngularAssignment/
+ 1687  npm start
+ 1688  node main.js
+ 1689  node d7.js
+ 1690  node d8.js
+ 1691  node d6.js
+ 1692  ifconfig
+ 1693  exit
+ 1694  top
+ 1695  ps
+ 1696  tty
+ 1697  man ps
+ 1698  ifconfig
+ 1699  ssh priya@10.1.15.144
+ 1700  ifconfig
+ 1701  sudo ssh priya@10.1.21.104
+ 1702  echo $HOME
+ 1703  help more
+ 1704  man more
+ 1705  man more more
+ 1706  cd Desktop/CMD_important/
+ 1707  l1
+ 1708  cat cmd_13_2_16.txt less
+ 1709  more cmd_13_2_16.txt
+ 1710  less cmd_13_2_16.txt
+ 1711  cd Desktop/
+ 1712  mongodump  --db MyApiAdvanceAssignment --collection users
+ 1713  mongo
+ 1714  yo
+ 1715  yo angular-fullstack
+ 1716  mkdir Project && cd Project
+ 1717  yo angular-fullstack@2.1.1
+ 1718  npm install generator-angular-fullstack@2.1.1 --save
+ 1719  yo angular-fullstack@2.1.1
+ 1720  yo angular-fullstack
+ 1721  npm start
+ 1722  angular remove genterator-angular-fullstack@3.3.0
+ 1723  npm remove genterator-angular-fullstack@3.3.0
+ 1724  express --ejs
+ 1725  npm install
+ 1726  bower angular --save
+ 1727  bower install angular --save
+ 1728  npm install
+ 1729  bower install
+ 1730  mongo
+ 1731  md
+ 1732  cd ProjectYoMen/
+ 1733  grant serve
+ 1734  grunt serve
+ 1735  node app.js
+ 1736  node server/app.js
+ 1737  grunt serve
+ 1738  yo angular-fullstack:endpoint posts
+ 1739  yo angular-fullstack:endpoint post
+ 1740  mongo
+ 1741  cd Tutorial/
+ 1742  node server.js
+ 1743  node -v
+ 1744  node update
+ 1745  node -update
+ 1746  sudo npm install -g babel-cli
+ 1747  npm install -g babel-cli
+ 1748  cd GitLab/akash-yadav/
+ 1749  branch -all
+ 1750  branch
+ 1751  git branch\
+ 1752  git branch
+ 1753  git push -u origin master
+ 1754  git branch
+ 1755  git checkout -b bootcamp-assignments
+ 1756  git pull
+ 1757  git pull master bootcamp-assignmets
+ 1758  git pull mremote bootcamp-assignment
+ 1759  git add -all
+ 1760  git add --all
+ 1761  git commit -am "assignment1"
+ 1762  git push -u origin bootcamp-assignments
+ 1763  gs
+ 1764  gl
+ 1765  git commit -am "assignment1&2"
+ 1766  git push -u origin bootcamp-assignments
+ 1767  gs
+ 1768  gl
+ 1769  git add --all
+ 1770  git commit -am "assignment1&2"
+ 1771  git push -u origin bootcamp-assignments
+ 1772  git add --all
+ 1773  git commit -am "assignment-initial"
+ 1774  git push -u origin bootcamp-assignments
+ 1775  gs
+ 1776  gl
+ 1777  mkdir project-BUZZ && cd project-BUZZ
+ 1778  git checkout -b project
+ 1779  git add --all
+ 1780  git commit -am "project-detail"
+ 1781  git push -u origin project
+ 1782  gs
+ 1783  gl
+ 1784  pwd
+ 1785  l1
+ 1786  git pull
+ 1787  gs
+ 1788  git checkout master
+ 1789  cd ..
+ 1790  git branch -D project
+ 1791  git push origin --delete project
+ 1792  git branch
+ 1793  mkdir project-BUZZ && cd project-BUZZ
+ 1794  git checkout master
+ 1795  git checkout project
+ 1796  git checkout -b project
+ 1797  l1
+ 1798  gs
+ 1799  l1
+ 1800  git add Boot-campProject.docx 
+ 1801  git commit -m "projectDetail"
+ 1802  gs
+ 1803  git push origin project
+ 1804  gl
+ 1805  gs
+ 1806  git checkout master
+ 1807  git branch
+ 1808  cd ..
+ 1809  git branch
+ 1810  mkdir bootcamp-assignments && cd bootcamp-assignments
+ 1811  git checkout bootcamp-assignments 
+ 1812  ls
+ 1813  gl
+ 1814  gs
+ 1815  git add .
+ 1816  git commit -m "assignments"
+ 1817  git push origin bootcamp-assignments 
+ 1818  git checkout master
+ 1819  cd ..
+ 1820  git checkout project 
+ 1821  cd project-BUZZ/
+ 1822  l1
+ 1823  git checkout master
+ 1824  cd ..
+ 1825  git checkout bootcamp-assignments 
+ 1826  cd bootcamp-assignments/
+ 1827  git add .
+ 1828  git commit -m "assignments"
+ 1829  git push origin bootcamp-assignments 
+ 1830  git pull
+ 1831  git push origin bootcamp-assignments 
+ 1832  git checkout master
+ 1833  cd ..
+ 1834  git branch -D project
+ 1835  git branch -D bootcamp-assignments 
+ 1836  git push origin --delete project
+ 1837  git push origin --delete bootcamp-assignments
+ 1838  git branch
+ 1839  mkdir bootcamp-assignments && cd bootcamp-assignments
+ 1840  git checkout -b bootcamp-assignments
+ 1841  git add .
+ 1842  gs
+ 1843  git commit -m 'assignmets"
+ 1844  '
+ 1845  git push bootcamp-assignments
+ 1846  git push origin bootcamp-assignments
+ 1847  gs
+ 1848  gl
+ 1849  git add .
+ 1850  git commit -m 'assignment'
+ 1851  git pull
+ 1852  gs
+ 1853  git push origin -u bootcamp-assignments
+ 1854  git checkout master
+ 1855  cd ..
+ 1856  gs
+ 1857  gl
+ 1858  mkdir project-BUZZ && cd project-BUZZ
+ 1859  git checkout -b project-BUZZ
+ 1860  git add .
+ 1861  git commit -m 'project-BUZZ-details'
+ 1862  git push origin -u project-BUZZ
+ 1863  gs
+ 1864  gl
+ 1865  cd ..
+ 1866  git checkout master
+ 1867  git branch
+ 1868  cd ..
+ 1869  git branch
+ 1870  exit
+ 1871  cd data/
+ 1872  chmod 777 data1
+ 1873  chmod 777 data2
+ 1874  chmod 777 data3
+ 1875  l1
+ 1876  mongod.conf
+ 1877  l1
+ 1878  cd ..
+ 1879  vim /etc/mongod.conf
+ 1880  vcat /etc/mongod.conf
+ 1881  cat /etc/mongod.conf
+ 1882  md
+ 1883  mongo
+ 1884  cd Desktop/
+ 1885  history > cmd_22_2_16.txt
+ 1886  cd ..
+ 1887  cd data/
+ 1888  l1
+ 1889  mongo
+ 1890  md
+ 1891  mongo
+ 1892  mongo 50000
+ 1893  mongo -port 27018
+ 1894  mongo --port 27018
+ 1895  mongo 
+ 1896  mongo 27018
+ 1897  md
+ 1898  mongo
+ 1899  mongod --replSet "rs1" --dbpath "data/db1" --port 50000
+ 1900  mongod --replSet rs1 --dbpath data/db1 --port 50000
+ 1901  mongod --replSet "rs1" --dbpath "data/db2" --port 50001
+ 1902  mongod --replSet rs1 --dbpath data/db2 --port 50001
+ 1903  mongod --replSet "rs1" --dbpath "data/db3" --port 50002
+ 1904  mongod --replSet rs1 --dbpath /data/db3 --port 50002
+ 1905  mongod --replSet rs1 --dbpath data/db3 --port 50002
+ 1906  mongo
+ 1907  mongod --replSet rs1 --dbpath data/db1 --port 50003
+ 1908  mongod --replSet rs1 --dbpath data/db3 --port 50002
+ 1909  md
+ 1910  mongod --replSet myApp --dbpath data/db1 --port 50000
+ 1911  gedit .bashrc
+ 1912  mongod --replSet myApp --dbpath data/db2 --port 50001
+ 1913  mongod --replSet myApp --dbpath data/db3 --port 50002
+ 1914  cd data/
+ 1915  mkdir db4
+ 1916  chmod 777 db4
+ 1917  l1
+ 1918  mongod --replSet myApp --dbpath data/db4 --port 50003
+ 1919  cd ..
+ 1920  mongod --replSet myApp --dbpath data/db4 --port 50003
+ 1921  md
+ 1922  mongo
+ 1923  mongo 50000
+ 1924  mongo --port 50000
+ 1925  mongo
+ 1926  md
+ 1927  mongo
+ 1928  grunt serve
+ 1929  cd ProjectYoMen/
+ 1930  grunt serve
+ 1931  md
+ 1932  cd Desktop/
+ 1933  history > cmd_24_2_16.txt
+ 1934  exit
+ 1935  cd ProjectYoMen/
+ 1936  grunt serve
+ 1937  yo angular-fullstack:route buzz
+ 1938  grunt serve
+ 1939  yo angular-fullstack:route compl
+ 1940  yo angular-fullstack:route sett
+ 1941  grunt serve
+ 1942  git add .
+ 1943  git commit -m "second"
+ 1944  git pull
+ 1945  git push origin master
+ 1946  gs
+ 1947  gl
+ 1948  history > cmd_25_2_16.txt

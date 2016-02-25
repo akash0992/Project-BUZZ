@@ -8,6 +8,7 @@ exports.setup = function (User, config) {
       callbackURL: config.google.callbackURL
     },
     function(accessToken, refreshToken, profile, done) {
+      //done({err:true});
       console.log(config.google);
       User.findOne({
         'google.id': profile.id
@@ -22,7 +23,7 @@ exports.setup = function (User, config) {
             google: profile._json
           });
           user.save(function(err) {
-            if (err) return done(err);
+            if (err) {return done(err);}
             done(err, user);
           });
         } else {
