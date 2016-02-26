@@ -2,9 +2,10 @@
 
 angular.module('buzzApp')
   .controller('BuzzCtrl', function ($scope,$http,Auth) {
-
+    $scope.buzz ={};
     $scope.obj=[];
-    $scope.category='BUZZ';
+    $scope.buzz.category='BUZZ';
+    $scope.cat='BUZZ';
 
     $http.get("/api/posts")
       .then(function(response){
@@ -13,42 +14,46 @@ angular.module('buzzApp')
       });
 
     $scope.setCategory = function(categ){
-      $scope.category = categ;
+      $scope.buzz.category = categ;
+      if(categ == 'BUZZ'){
+        $scope.cat='BUZZ';
+      }else{
+        $scope.cat='Lost & Found';
+      }
       // alert($scope.category);
     }
 
     $scope.userBuzz = function(){
 
-      if($scope.content==null || $scope.content == "" ){
+      if($scope.buzz.content==null || $scope.buzz.content == "" ){
         alert("Content of Buzz can't be Blank !!!");
         return false;
       }
+      $scope.buzz.dateCreated = Date.now();
+      $scope.buzz.mUrl = '';
+      $scope.buzz.content = $scope.buzz.content.replace(/\n/g, "<br/>");
 
-      var data={
-        category:$scope.category,//['BUZZ','COMPLAINT']
-        dateCreated:Date.now(),
-        content: $scope.content,
-        mUrl :'',
-        uId :Auth.getCurrentUser()._id
-        //createdBy: {
-        //  id:Auth.getCurrentUser()._id,
-        //  name:Auth.getCurrentUser().name,
-        //  imgUrl:Auth.getCurrentUser().google.image.url
-        //}
-      };
+      var fd = new FormData();
 
-      $http
-        .post('http://localhost:9000/api/posts',data).then(function(res){
+      for(var key in $scope.buzz){
+        fd.append(key,$scope.buzz[key]);
+      }
+
+      $http.post("http://localhost:9000/api/posts", fd,{
+        transformRequest : angular.identity,
+        headers: { 'Content-Type' : undefined}
+      }).then(function(res){
 
           console.log("buzz.controller.js ---- userBuzz ----- post");
-          console.log("res",res);
+          console.log("res",res.rs);
+
           $scope.obj.push(res.data);
-          $scope.content = "";
-          $scope.category = "BUZZ";
-        }, function(err){
+          $scope.buzz.content = "";
+          $scope.buzz.category = "BUZZ";
+          $scope.buzz.file = '';
+
+      }, function(err){
           console.log("err", err)
         });
     }
-
   });
-

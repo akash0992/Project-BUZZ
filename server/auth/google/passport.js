@@ -9,7 +9,14 @@ exports.setup = function (User, config) {
     },
     function(accessToken, refreshToken, profile, done) {
       //done({err:true});
-      console.log(config.google);
+
+      //if(profile.emails[0].value.substr(profile.emails[0].value.lastIndexOf('@')+1)!='tothenew.com'){
+      //  done({err:'error-invalid user'});
+      //}
+
+      console.log('profile');
+      console.log(profile.emails[0].value.substr(profile.emails[0].value.lastIndexOf('@')+1));
+
       User.findOne({
         'google.id': profile.id
       }, function(err, user) {

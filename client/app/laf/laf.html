@@ -1,32 +1,36 @@
-<div class="col-md-12 first-gap">
-  <div class="profile-content-laf">
-    <div class="createPost-laf">
-        LOST & FOUND Section
-    </div>
-  </div>
-  <br>
-</div>
+<div>
 
-<div ng-repeat="object in obj | orderBy:'-dateCreated' " class="gap">
-  <div class="col-md-12 post" ng-if="object.category == 'LAF' " >
-    <div class="profile-content-post-laf-2">
-      <div class="showPost-laf-2">
-        <div class="showPost-laf-2-head">
-          User : {{object.uId}}, posted a {{object.category}}, on {{object.dateCreated}}
-        </div>
-        <div class="showPost-laf-2-body">
-          <div class="showPost-laf-2-body-image" ng-if="object.mUrl!='' ">
-            <img src="{{object.mUrl}}">
-          </div><br>
-          <div class="showPost-laf-2-body-text">
-            {{object.content}}
+  <div class="col-md-12 first-gap">
+    <div class="profile-content-laf">
+      <div class="createPost-laf">
+          LOST & FOUND Section
+      </div>
+    </div>
+    <br>
+  </div>
+
+  <div ng-repeat="post in obj | orderBy:'-dateCreated' " class="gap">
+    <div class="col-md-12 post" ng-if="post.category == 'LAF' " >
+      <div class="profile-content-post-laf-2">
+        <div class="showPost-laf-2">
+          <div class="showPost-laf-2-head">
+            <img ng-src="{{post.createdBy.uImgUrl}}" alt=""> {{post.createdBy.uName}}, posted a Lost & Found Buzz, on {{post.dateCreated | date}}
           </div>
+          <div class="showPost-laf-2-body">
+            <div class="showPost-laf-2-body-image img-frame" ng-if="post.mUrl!='' ">
+              <img src="{{post.mUrl}}">
+            </div><br>
+            <div class="showPost-laf-2-body-text text-frame">
+              {{post.content}}
+            </div>
+          </div>
+          <!--<div class="showPost-laf-2-foot">-->
+          <!--<a href="" ng-click=""><img src="../../assets/images/like.png"></a>&nbsp;&nbsp;&nbsp;-->
+          <!--<a href="" ng-click=""><img src="../../assets/images/dislike.png"></a>&nbsp;&nbsp;&nbsp;-->
+          <!--</div>      -->
         </div>
-        <!--<div class="showPost-laf-2-foot">-->
-        <!--<a href="" ng-click=""><img src="../../assets/images/like.png"></a>&nbsp;&nbsp;&nbsp;-->
-        <!--<a href="" ng-click=""><img src="../../assets/images/dislike.png"></a>&nbsp;&nbsp;&nbsp;-->
-        <!--</div>      -->
       </div>
     </div>
   </div>
+
 </div>

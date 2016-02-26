@@ -13,12 +13,12 @@ var PostSchema = new Schema({
   //lastContent: String,
   //viewed: {type:Number, default: 0},
   mUrl : String,
-  uId : String
-  //createdBy: {
-  //  id : String,
-  //  name:String,
-  //  imgUrl:String
-  //}
+  //uId : String,
+  createdBy: {
+    uId : String,
+    uName:String,
+    uImgUrl:String
+  }
  // contentHtml: String,
  // active: Boolean//Only admin can change it
 });
