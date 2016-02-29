@@ -12,5 +12,5 @@ module.exports = {
     clientSecret: process.env.GOOGLE_SECRET || 'QABruF0j8RtCyKkpGGBUFQ-Q',
     callbackURL:  (process.env.DOMAIN || '') + '/auth/google/callback'
   },
-  seedDB: true
+  seedDB: false
 };
