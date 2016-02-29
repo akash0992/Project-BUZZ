@@ -11,6 +11,8 @@
 
   <div infinite-scroll='reddit.nextPageLaf()' infinite-scroll-disabled='reddit.busy' infinite-scroll-distance='.2'>
 
+    <!--| linky-->
+
   <div ng-repeat="post in reddit.items | orderBy:'-dateCreated' " class="gap">
     <div class="col-md-12 post">
       <div class="profile-content-post-laf-2">
@@ -27,7 +29,7 @@
           </div>
           <div class="showPost-laf-2-body">
             <div class="showPost-laf-2-body-text text-frame readML" hm-read-more
-                 hm-text="{{post.content | linky}}"
+                 hm-text="{{post.content }}"
                  hm-limit="200"
                  hm-more-text="read more"
                  hm-less-text="read less"

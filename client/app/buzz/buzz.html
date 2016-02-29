@@ -36,6 +36,7 @@
     <br>
   </div>
 
+  <!--| linky-->
 
   <div infinite-scroll='reddit.nextPage()' infinite-scroll-disabled='reddit.busy' infinite-scroll-distance='.2'>
 
@@ -54,7 +55,7 @@
               </div>
               <div class="showPost-body">
                 <div class="showPost-body-text text-frame readML" hm-read-more
-                     hm-text="{{post.content | linky}}"
+                     hm-text="{{post.content }}"
                      hm-limit="200"
                      hm-more-text="read more"
                      hm-less-text="read less"
@@ -88,7 +89,7 @@
               </div>
               <div class="showPost-laf-body">
                 <div class="showPost-laf-body-text text-frame readML" hm-read-more
-                     hm-text="{{post.content | linky}}"
+                     hm-text="{{post.content }}"
                      hm-limit="200"
                      hm-more-text="read more"
                      hm-less-text="read less"
