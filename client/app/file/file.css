@@ -1,0 +1,59 @@
+.profile-content-file{
+  text-align: left;
+  padding: 12px;
+  background: #fff;
+  min-height: 100px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/*@import url("http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css");*/
+
+
+/*.btn-input {*/
+  /*display: block;*/
+/*}*/
+
+
+/*.btn-input .btn.form-control {*/
+  /*text-align: left;*/
+  /*border-radius: 4px;*/
+  /*border: none;*/
+  /*width: 100%;*/
+/*}*/
+
+/*.btn-input .btn.form-control span:first-child {*/
+  /*left: 10px;*/
+  /*overflow: hidden;*/
+  /*position: absolute;*/
+  /*right: 25px;*/
+/*}*/
+
+/*.btn-input .btn.form-control .caret {*/
+  /*margin-top: -1px;*/
+  /*position: absolute;*/
+  /*right: 10px;*/
+  /*top: 50%;*/
+/*}*/
+
+
+
+.input-group{
+  margin-top: 10px;
+}
+
+.mydropdwn{
+  padding-top: 180px;
+  padding-left: 10px;
+}
+.input-group.inline{
+  display: inline;
+  margin-top: 500px;
+}
+
+.btn._btn {
+   border-radius: 4px;
+   width: 100%;
+   height: 40px;
+  line-height: 20px;
+}

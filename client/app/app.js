@@ -5,7 +5,11 @@ angular.module('buzzApp', [
   'ngResource',
   'ngSanitize',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'angularMoment',
+  'ngSanitize',
+  'hm.readmore',
+  'infinite-scroll'
 ])
   .config(function ($stateProvider, $urlRouterProvider, $locationProvider, $httpProvider) {
     $urlRouterProvider
@@ -46,7 +50,8 @@ angular.module('buzzApp', [
     };
   })
 
-  .run(function ($rootScope, $location, Auth,$state) {
+  .run(function ($rootScope, $location, Auth,$state,amMoment) {
+    amMoment.changeLocale('de');
     // Redirect to login if route requires auth and you're not logged in
     $rootScope.$on('$stateChangeStart', function (event, next) {
       Auth.isLoggedInAsync(function(loggedIn) {

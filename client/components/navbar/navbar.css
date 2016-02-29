@@ -19,6 +19,8 @@
 
 #logoBuzz{
   width: 30%;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {

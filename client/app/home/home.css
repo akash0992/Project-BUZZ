@@ -111,23 +111,6 @@ body {
   margin-top: 10px;
 }
 
-
-
-.profile-content-compl{
-  padding: 20px;
-  background: #fff;
-  min-height: 220px;
-  margin-top: 10px;
-}
-
-
-.profile-content-sett{
-  padding: 20px;
-  background: #fff;
-  min-height: 220px;
-  margin-top: 10px;
-}
-
 .card {
   padding-top: 20px;
   margin: 10px 0 20px 0;
@@ -323,7 +306,14 @@ body {
 
 .card.hovercard .cardheader {
   background-image: url("../../assets/images/logo_2.jpg");
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   height: 135px;
 }
 
@@ -413,3 +403,12 @@ div span a{
 div span a:hover{
   color: #427fed;
 }
+
+/*.userCard{*/
+  /*margin-left: 5%;*/
+/*}*/
+
+
+/*.userContent{*/
+  /*margin-left: 26%;*/
+/*}*/

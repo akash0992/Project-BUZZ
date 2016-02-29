@@ -1,5 +1,20 @@
 <div class="col-md-12">
   <div class="profile-content-compl">
-    Some Complaint related content goes here...
+    <span class="">Complaint Section</span>
+    <ul class="nav nav-tabs">
+      <li ng-class="{true:'col-md-6',false:'col-md-4'}[isAdmin()]" role="presentation"><a ui-sref="home.compl.file" href="">File a Complaint</a></li>
+      <li ng-class="{true:'col-md-6',false:'col-md-4'}[isAdmin()]" role="presentation"><a ui-sref="home.compl.log" href="">Complaint Log</a></li>
+      <li class="col-md-4" role="presentation"><a ui-sref="home.compl.manage" href="">Manage Complaint</a></li>
+      <!--ng-show="isAdmin()"-->
+    </ul>
+
+    <div ui-view="">
+    </div>
+
+
   </div>
 </div>
+
+
+
+

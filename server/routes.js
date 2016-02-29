@@ -8,12 +8,13 @@ var errors = require('./components/errors');
 var path = require('path');
 
 var multer = require('multer');
+
 var up = multer({storage: multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, path.join(process.cwd(), 'uploads'));
   },
   filename: function (req, file, cb) {
-    cb(null, Date.now() + "" + Math.ceil(Math.random()*9999) + file.originalname);
+    cb(null, Date.now() + "_" + Math.ceil(Math.random()*9999) + file.originalname);
   }
 })});
 

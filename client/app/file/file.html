@@ -1,0 +1,99 @@
+<div class="profile-content-file">
+This is the file view.
+  <div class="level1">
+    <div class="dept">
+
+      <!--<select class="selectpicker" data-header="Select a condiment" style="display:none;">-->
+        <!--<option data-subtext="French's">Mustard</option>-->
+        <!--<option data-subtext="Heinz">Ketchup</option>-->
+        <!--<option data-subtext="Sweet">Relish</option>-->
+        <!--<option data-subtext="Miracle Whip">Mayonnaise</option>-->
+        <!--<option data-divider="true"></option>-->
+        <!--<option data-subtext="Honey">Barbecue Sauce</option>-->
+        <!--<option data-subtext="Ranch">Salad Dressing</option>-->
+        <!--<option data-subtext="Sweet & Spicy">Tabasco</option>-->
+        <!--<option data-subtext="Chunky">Salsa</option>-->
+      <!--</select>-->
+
+    <!--<form>-->
+      <!--<div class="row">-->
+
+        <!--<div class="col-sm-3">-->
+          <!--<h5>Dropdown Button w/custom styles</h5>-->
+
+          <!--<div class="panel panel-default">-->
+            <!--<div class="panel-body">-->
+              <!--<div class="btn-group btn-input clearfix">-->
+                <!--<button type="button" class="btn btn-default dropdown-toggle form-control" data-toggle="dropdown">-->
+                  <!--<span data-bind="label">Select One</span>&nbsp;<span class="caret"></span>-->
+                <!--</button>-->
+                <!--<ul class="dropdown-menu" role="menu">-->
+                  <!--<li><a href="#">Item 1</a></li>-->
+                  <!--<li><a href="#">Another item</a></li>-->
+                  <!--<li><a href="#">This is a longer item that will not fit properly</a></li>-->
+                <!--</ul>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+        <!--</div>-->
+
+      <!--</div>-->
+    <!--</form>-->
+
+
+
+      <div class="input-group">
+        <div class="dropdown">
+          <button class="btn btn-default btn-sm dropdown-toggle _btn" value="Category "type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Select Dept
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuDivider">
+
+            <li><a href="" ng-click="">Lost and Found</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="" ng-click="">Buzz</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+    <div class="titl">
+
+    </div>
+  </div>
+  <div class="level2">
+    <div class="concern">
+
+    </div>
+  </div>
+  <div class="level3">
+    <div class="attach">
+
+    </div>
+    <div class="fileCompl">
+
+    </div>
+  </div>
+
+</div>
+
+  <script>
+    $( document.body ).on( 'click', '.dropdown-menu li', function( event ) {
+
+      var $target = $( event.currentTarget );
+
+      $target.closest( '.btn-group' )
+        .find( '[data-bind="label"]' ).text( $target.text() )
+        .end()
+        .children( '.dropdown-toggle' ).dropdown( 'toggle' );
+
+      return false;
+
+    });
+  </script>

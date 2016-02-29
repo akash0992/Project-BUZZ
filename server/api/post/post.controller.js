@@ -3,6 +3,7 @@
 var _ = require('lodash');
 var Post = require('./post.model');
 
+
 // Get list of posts
 exports.index = function(req, res) {
   Post.find(function (err, posts) {
@@ -10,6 +11,27 @@ exports.index = function(req, res) {
     return res.status(200).json(posts);
   });
 };
+
+
+exports.indexGet = function(req, res) {
+  //console.log("parameters : ",req.params.id);
+  Post.find(function (err, posts) {
+    if(err) { return handleError(res, err); }
+    return res.status(200).json(posts);
+  }).sort({dateCreated:'-1'}).skip(req.params.id).limit(10);
+};
+
+
+// Get list of BUZZ/LAF posts
+exports.indexCategory = function(req, res) {
+  //console.log("parameters : ",req.params.id);
+  Post.find({category:req.params.id},function (err, posts) {
+    if(err) { return handleError(res, err); }
+    return res.status(200).json(posts);
+  }).sort({dateCreated:'-1'}).skip(req.params.skip).limit(10);;
+};
+
+
 
 // Get a single post
 exports.show = function(req, res) {

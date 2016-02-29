@@ -9,19 +9,33 @@
     <br>
   </div>
 
-  <div ng-repeat="post in obj | orderBy:'-dateCreated' " class="gap">
-    <div class="col-md-12 post" ng-if="post.category == 'LAF' " >
+  <div infinite-scroll='reddit.nextPageLaf()' infinite-scroll-disabled='reddit.busy' infinite-scroll-distance='.2'>
+
+  <div ng-repeat="post in reddit.items | orderBy:'-dateCreated' " class="gap">
+    <div class="col-md-12 post">
       <div class="profile-content-post-laf-2">
         <div class="showPost-laf-2">
           <div class="showPost-laf-2-head">
-            <img ng-src="{{post.createdBy.uImgUrl}}" alt=""> {{post.createdBy.uName}}, posted a Lost & Found Buzz, on {{post.dateCreated | date}}
+            <div class="imgUser">
+              <img ng-src="{{post.createdBy.uImgUrl}}" alt="">
+            </div>
+            <div class="textUser">
+              <span>{{post.createdBy.uName}}, posted a Lost & Found Buzz</span><br>
+              <span am-time-ago="post.dateCreated"></span><br>
+            </div>
+            <!--<img ng-src="{{post.createdBy.uImgUrl}}" alt=""> {{post.createdBy.uName}}, posted a Lost & Found Buzz, <span am-time-ago="post.dateCreated"></span>-->
           </div>
           <div class="showPost-laf-2-body">
+            <div class="showPost-laf-2-body-text text-frame readML" hm-read-more
+                 hm-text="{{post.content}}"
+                 hm-limit="200"
+                 hm-more-text="read more"
+                 hm-less-text="read less"
+                 hm-dots-class="dots"
+                 hm-link-class="links">
+            </div><br>
             <div class="showPost-laf-2-body-image img-frame" ng-if="post.mUrl!='' ">
               <img src="{{post.mUrl}}">
-            </div><br>
-            <div class="showPost-laf-2-body-text text-frame">
-              {{post.content}}
             </div>
           </div>
           <!--<div class="showPost-laf-2-foot">-->
@@ -31,6 +45,9 @@
         </div>
       </div>
     </div>
+  </div>
+
+    <div ng-show='reddit.busy'><img src="../../assets/images/loading.gif"></div>
   </div>
 
 </div>

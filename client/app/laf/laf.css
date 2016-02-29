@@ -38,6 +38,14 @@
 
 }
 
+.showPost-laf-2-head::after{
+
+  content: "";
+  clear: both;
+  display: block;
+
+}
+
 .showPost-laf-2-body{
   min-height: 20px;
   background-color: #ffffff;
@@ -73,5 +81,24 @@ div.img-frame img{
 
 .text-frame{
   max-width: 100%;
+  text-align: justify;
+}
 
+span[name="toggle"]:hover{
+  cursor: pointer;
+}
+
+.imgUser{
+  width: 7%;
+  float: left;
+}
+
+div.imgUser img{
+  width: 100%;
+}
+
+.textUser{
+  float: right;
+  text-align: left;
+  width: 93%;
 }

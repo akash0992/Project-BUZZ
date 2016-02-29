@@ -1,9 +1,8 @@
-.profile-content-compl{
-  text-align: center;
+.profile-content-log{
+  text-align: left;
   padding: 12px;
   background: #fff;
   min-height: 100px;
   margin-top: 10px;
   border-radius: 4px;
 }
-

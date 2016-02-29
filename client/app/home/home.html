@@ -1,13 +1,16 @@
 <div>
   <div>
   <div ng-include="'components/navbar/navbar.html'"></div>
+    <br>
+    <br>
+    <br>
   </div>
 
   <!--Container-->
-  <div class="container">
+  <div class="container ">
     <div class="row profile">
-      <div class="col-lg-3 col-sm-6">
-
+      <div class="col-lg-3 col-sm-6 ">
+<!--        navbar-fixed-top userCard  <br><br><br><br>-->
         <div class="card hovercard">
           <div class="cardheader">
 
@@ -49,13 +52,13 @@
                   Buzz </a>
               </li>
               <li>
-                <a ui-sref="home.compl">
+                <a ui-sref="home.compl.file">
                   <i class="glyphicon glyphicon-wrench"></i>
                   Complaint </a>
               </li>
               <li>
                 <a ui-sref="home.laf">
-                  <i class="glyphicon glyphicon-eye-open"></i>
+                  <i class="glyphicon glyphicon-file"></i>
                   Lost & Found </a>
               </li>
               <li>
@@ -88,7 +91,7 @@
         </div>
       </div>
 
-      <div class="col-md-9 alginContent">
+      <div class="col-md-9 alginContent "> <!--userContent-->
         <div ui-view="">
 
         </div>

@@ -7,8 +7,13 @@ var router = express.Router();
 
 var auth =require('../../auth/auth.service');
 
-router.get('/', controller.index);
-router.get('/:id', controller.show);
+router.get('/', controller.index);/*
+router.get('/:id', controller.show);*/
+
+
+router.get('/:id',controller.indexGet);
+router.get('/category/:id/:skip', controller.indexCategory);
+
 //router.post('/',controller.create);
 
 router.post('/',auth.isAuthenticated(),function(req,res,next){
